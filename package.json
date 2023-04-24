@@ -1,0 +1,70 @@
+{
+  "name": "schools-website-template",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^2.0.4",
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@green-api/whatsapp-api-client": "^0.3.35",
+    "@headlessui/vue": "^1.7.13",
+    "@heroicons/vue": "^2.0.17",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@paypal/paypal-js": "^5.1.4",
+    "@paypal/react-paypal-js": "^7.8.2",
+    "@riophae/vue-treeselect": "^0.4.0",
+    "FontAwesomeIcon.vue": "link:@/components/FontAwesomeIcon.vue",
+    "core-js": "^3.8.3",
+    "firebase": "^9.20.0",
+    "firebaseui": "^6.0.2",
+    "nuxt": "^2.15.3",
+    "vue": "^2.7.14",
+    "vue-firebase-auth": "^0.1.0",
+    "vue-paypal-checkout": "^3.2.0",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-treeselect.css": "link:@riophae/vue-treeselect/dist/vue-treeselect.css",
+    "vuetify": "^3.1.15"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.15.11",
+    "autoprefixer": "^10.4.14",
+    "consola": "^2.15.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-vue": "^7.20.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.3",
+    "webpack": "^5.77.0"
+  }
+}
