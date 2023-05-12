@@ -1,6 +1,6 @@
 <template>
 <header id="home" class=" fixed container flex justify-around items-center py-1">
-  <nav id="Home" class="flex items-center rounded  justify-between  border rounded-40 border-red-600 flex-wrap bg-gray-800 p-6">
+  <nav id="Home" class="flex items-center rounded  justify-between  border rounded-40 border-red-600 bg-gradient-to-r from-accent flex-wrap p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <img class="h-8 w-8" :src="$config.schoolLogo" alt="Logo">
       <span class="font-semibold text-xl tracking-tight ml-2">SCHIELD CENTER</span>
